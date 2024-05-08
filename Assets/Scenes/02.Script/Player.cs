@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
         Vector2 distance = new Vector2(horizontal, vertical);
 
         rb.velocity = distance * Time.deltaTime * speed;
-
+        //a
     }
 
 }
